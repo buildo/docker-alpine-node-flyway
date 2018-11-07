@@ -1,9 +1,7 @@
-# docker-alpine-node-openjdk
-Minimal docker image that contains node and is able to launch flyway
-
-Based on: node:8-alpine
+# docker-alpine-node-flyway
+Minimal docker image based on node:8-alpine and is able to launch flyway
 
 Addons:
 - openssl
-- openjdk8
-- flyway 5.2.1
+- openjdk8 (needed for flyway)
+- **flyway 5.2.1**
